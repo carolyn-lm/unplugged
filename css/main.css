@@ -130,6 +130,14 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -145,7 +153,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px 0;
-  background: #202322;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -154,6 +162,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -220,6 +232,9 @@ footer .copyright {
 
 /*---Hero Area---*/
 .hero-area {
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -271,6 +286,8 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -298,7 +315,7 @@ input[type=button] {
 .reviews {
   display: flex;
   justify-content: center;
-  background: #2a423a;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -316,13 +333,13 @@ input[type=button] {
 .mission {
   display: flex;
   justify-content: center;
-  background: #527158;
+  background-color: #527158;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
-  background: #2a423a;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -334,7 +351,7 @@ input[type=button] {
 .faq {
   display: flex;
   justify-content: center;
-  background: #527158;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -447,7 +464,7 @@ input[type=button] {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Tablet styles here */
+  /**** Tablet styles here ****/
 
   /* General styles */
   .content-wrapper {
@@ -567,6 +584,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -575,6 +593,7 @@ input[type=button] {
     width: 75%;
     margin: 0;
   }
+
 
   /**** ABOUT PAGE *****/
 
