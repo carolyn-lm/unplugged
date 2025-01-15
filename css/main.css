@@ -97,6 +97,7 @@ body {
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+  background-color: #202322;
 }
 
 ul,
@@ -115,6 +116,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -197,7 +199,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #202322;
+  background-color: #202322;
 }
 
 footer p {
@@ -259,7 +261,7 @@ footer .copyright {
 aside {
   display: flex;
   justify-content: center;
-  background: #527158;
+  background-color: #527158;
 }
 
 aside .form {
@@ -310,7 +312,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -546,7 +547,6 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
@@ -559,7 +559,7 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 1.125;
+    line-height: 1.285;
   }
 
   footer .social-icons {
@@ -572,6 +572,10 @@ input[type=button] {
   }
 
   /**** HOMEPAGE *****/
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -598,6 +602,10 @@ input[type=button] {
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -607,6 +615,10 @@ input[type=button] {
 
   .features .features-items-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
