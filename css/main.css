@@ -613,7 +613,7 @@ input[type=button] {
     flex-basis: 50%;
   }
 
-  .features .features-items-description {
+  .features .features-item-description {
     width: 62%;
   }
 
